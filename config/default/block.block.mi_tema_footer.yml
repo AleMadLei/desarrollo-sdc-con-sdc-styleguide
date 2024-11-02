@@ -1,0 +1,27 @@
+uuid: 29efa329-6d3a-43a7-9936-e20f49ae66cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - mi_tema
+_core:
+  default_config_hash: 4y5wWCxplKbNliutHxezAGgv3_Js3sNIIJ7plrrkqOw
+id: mi_tema_footer
+theme: mi_tema
+region: footer
+weight: -2
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

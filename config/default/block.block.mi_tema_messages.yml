@@ -1,0 +1,22 @@
+uuid: 3a9324a1-de2a-45f7-95fc-bef4d33e60ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mi_tema
+_core:
+  default_config_hash: fYlkaWGVyyVrCnf0-bgwDn1KmgButUOiB74tl8zVeU0
+id: mi_tema_messages
+theme: mi_tema
+region: content
+weight: -1
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

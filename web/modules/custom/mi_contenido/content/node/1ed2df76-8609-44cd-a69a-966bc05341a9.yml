@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1ed2df76-8609-44cd-a69a-966bc05341a9
+  bundle: article
+  default_langcode: en
+  depends:
+    7cad87e8-8af7-497f-81f3-97c9bc594cb0: file
+    a0fc445e-9abf-444e-96ee-d7b69c63982d: taxonomy_term
+    b050fc45-03a2-4d03-959d-7428962e8dfd: taxonomy_term
+    001f18ff-4e46-4ea3-a1d3-32f49fe5b1f3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dogs Go Wolf'
+  created:
+    -
+      value: 1730526904
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: '<p>The storm came and erased the quiet.</p><p>Well, the older sister thought, an island is never really quiet. Even without the storm, there were waves and wind and air-conditioners and generators and animals moving out there in the dark.</p><p>&nbsp;</p><p>What the storm had erased was the silence from the other cabin. For hours, there had been no laughing, no bottle caps falling, none of the bickering that the girls had grown used to over the past two days.</p><p>This was because there were no more adults. They’d been left alone on the island, the two little girls. Four and seven. Pretty little things, strangers called them. What dolls! Their faces were exactly like their mother’s. Hoochies-in-waiting, their mother joked, but she watched them anxiously from the corner of her eye. She was a good mother.</p><p>The fluffy white dog had at least stopped his yowling. He had crept close to the girls’ bed, but when they tried to stroke him he snapped at their hands. The animal was torn between his hatred of children and his hatred of the wild storm outside.</p><p>The big sister said, Once upon a time, there was a—</p><p>—princess, the little sister said.</p><p>Rabbit, the big sister said.</p><p>Rabbit princess, the little sister said.</p><p>Once upon a time, there was a tiny purple rabbit, the older sister said. A man saw her and scooped her up in his net. Her family tried to stop him, but they couldn’t. The man went into the city and took the rabbit to a pet store and put her into a box in the window. All day long people stuck their hands in to touch the purple rabbit. Finally, a girl came in and bought the rabbit and took her home. It was better there, but the rabbit still missed her family. She grew and slept with the girl in her bed, but most days she stared out the window all sad. She began to forget that she was a rabbit. One day, the girl put a leash on the rabbit and they went out into the park. The rabbit looked up and saw another rabbit staring at her from the edge of the woods. They looked at each other long enough for her to remember that she was not a girl but a rabbit, and the other rabbit was her own sister. The girl was kind to her and gave her food, but the rabbit looked at her sister and she knew that this was her only chance. She slipped out of the collar and ran as fast as she could over the field, and she and her sister hopped into the forest. The rabbit family was so happy to see her. They had a party, dancing and singing and eating cabbage and carrots. The end.</p><p>The little sister was asleep. The two fishing cabins rocked on their stilts, the dock ground against the shore, the wind spoke through the cracks in the window frames, the palms lashed, the waves shattered and roared. The older girl held her little sister.</p><p>All night, she and the island were awake, the island because it never slept, the girl because she knew that only her ferocious attention would keep them safe.</p>'
+      format: basic_html
+      summary: ''
+  field_image:
+    -
+      entity: 7cad87e8-8af7-497f-81f3-97c9bc594cb0
+      alt: 'Dogs Go Wolf'
+      title: ''
+      width: 800
+      height: 450
+  field_tags:
+    -
+      entity: a0fc445e-9abf-444e-96ee-d7b69c63982d
+    -
+      entity: b050fc45-03a2-4d03-959d-7428962e8dfd
+    -
+      entity: 001f18ff-4e46-4ea3-a1d3-32f49fe5b1f3

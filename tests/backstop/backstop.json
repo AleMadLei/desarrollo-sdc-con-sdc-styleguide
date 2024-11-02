@@ -1,0 +1,52 @@
+{
+  "id": "backstop_default",
+  "viewports": [
+    {
+      "label": "phone",
+      "width": 320,
+      "height": 480
+    },
+    {
+      "label": "tablet",
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "onBeforeScript": "../../node_modules/backstopjs/capture/engine_scripts/chromy/onBefore.js",
+  "onReadyScript": "../../node_modules/backstopjs/capture/engine_scripts/chromy/onReady.js",
+  "scenarios": [
+    {
+      "label": "Card Image",
+      "url": "https://sdc.lndo.site/styleguide/component/Ungrouped/sdc_styleguide_demo_components%3Acard/image",
+      "referenceUrl": "https://sdc-compare.lndo.site//styleguide/component/Ungrouped/sdc_styleguide_demo_components%3Acard/image",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 2000,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": [],
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [
+        "#block-mi-tema-content"
+      ],
+      "selectorExpansion": true,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineFlags": [],
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}

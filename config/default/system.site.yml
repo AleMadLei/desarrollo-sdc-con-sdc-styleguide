@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: 22700fae-6127-4ece-8560-f5c16724d973
+name: 'Desarrollo de SDC con SDC Styleguide'
+mail: admin@example.com
+slogan: 'by AleMadlei'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

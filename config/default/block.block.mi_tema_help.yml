@@ -1,0 +1,22 @@
+uuid: 454a2867-1da4-41ca-b01a-66e57c7b81a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mi_tema
+_core:
+  default_config_hash: HPmfLLacVaAGKBMPchjbxQDPXJnxAlDmMFAddP9QqF0
+id: mi_tema_help
+theme: mi_tema
+region: content
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

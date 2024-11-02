@@ -1,0 +1,22 @@
+uuid: b598ab3c-ee8b-42eb-bbac-846ed7c2150c
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - xara
+_core:
+  default_config_hash: HPmfLLacVaAGKBMPchjbxQDPXJnxAlDmMFAddP9QqF0
+id: xara_help
+theme: xara
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

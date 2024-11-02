@@ -1,0 +1,27 @@
+uuid: 0be052ef-e6f9-4c74-80b7-da7900a340ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - mi_tema
+_core:
+  default_config_hash: dYOqerdPFgi1x1lZt5M0i2q5PZ7GepBj_u-X5eeKElk
+id: mi_tema_tools
+theme: mi_tema
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

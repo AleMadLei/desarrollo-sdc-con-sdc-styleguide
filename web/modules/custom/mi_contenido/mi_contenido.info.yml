@@ -1,0 +1,7 @@
+name: 'Mi Contenido'
+type: module
+description: 'Contenido por defecto'
+package: Custom
+core_version_requirement: ^11
+dependencies:
+  - default_content:default_content

@@ -1,0 +1,20 @@
+uuid: 76e95f58-b398-4954-a7f0-f009a7dbb476
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mi_tema
+_core:
+  default_config_hash: IaMVuQOYM1cmbz9zB2mWQ_wPiP69EnmOYJMbD8XR7V4
+id: mi_tema_page_title
+theme: mi_tema
+region: content
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

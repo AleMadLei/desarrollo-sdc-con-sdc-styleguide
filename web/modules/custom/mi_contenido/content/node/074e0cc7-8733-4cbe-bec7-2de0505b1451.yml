@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 074e0cc7-8733-4cbe-bec7-2de0505b1451
+  bundle: article
+  default_langcode: en
+  depends:
+    736aa82f-8ac5-4401-ba7a-a7ca8ca9e7ee: file
+    20430416-4d6f-4b7a-b821-a8459a5b7163: taxonomy_term
+    14a16329-480a-45ae-805f-b1ef1fe0d6e2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The American Who Gave His Life to Chairman Mao'
+  created:
+    -
+      value: 1730526154
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: "<p>On the dictator's 120th birthday, Sidney Rittenberg—whose life story entwines with the turbulent history of the People's Republic—describes his interactions with the man who still dominates China 37 years after his death.</p><p>By <a href=\"https://www.theatlantic.com/author/matthew-schiavenza/\">Matt Schiavenza</a></p><p>From 1944, when the 23-year-old Sidney Rittenberg first arrived in China with the U.S. Army, to his departure 35 years later, no other foreign national played as important a role in the country. A Chinese linguist and Communist sympathizer, Rittenberg served as a friend, confidante, translator, and journalist for the Communist Party leadership after first encountering them at their Yan'an base in 1946. During the first three decades of P.R.C. history, Rittenberg enjoyed remarkable influence in a country largely closed off to the outside world. However, his high profile came at a grave cost: He was imprisoned twice and held in solitary confinement for a total of 16 years.</p><p>Now 92, Rittenberg remains a sharp observer of contemporary China, commenting often about the country that has defined his personal and professional life. A genial man with an easy laugh, Rittenberg betrays little bitterness about his years in China, which he wrote about in his memoir&nbsp;<em>The Man Who Stayed Behind,&nbsp;</em>and has continued to visit since his return to the U.S.&nbsp;In a wide-ranging phone conversation with me last month, Rittenberg recounted his personal memories of Chairman Mao Zedong, born 120 years ago today, and why he believes that, through forging an early alliance with the Chinese leader, the United States might have avoided both the Korean and Vietnam wars. Our interview has been condensed and edited for clarity.</p>"
+      format: basic_html
+      summary: ''
+  field_image:
+    -
+      entity: 736aa82f-8ac5-4401-ba7a-a7ca8ca9e7ee
+      alt: 'Photo 1'
+      title: ''
+      width: 800
+      height: 450
+  field_tags:
+    -
+      entity: 20430416-4d6f-4b7a-b821-a8459a5b7163
+    -
+      entity: 14a16329-480a-45ae-805f-b1ef1fe0d6e2

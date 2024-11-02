@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 736aa82f-8ac5-4401-ba7a-a7ca8ca9e7ee
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 981-800x450.jpg
+  uri:
+    -
+      value: 'public://2024-11/981-800x450.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 89147
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730526322

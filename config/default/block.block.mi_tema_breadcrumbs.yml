@@ -1,0 +1,22 @@
+uuid: 38bcb5db-c1e3-4da2-ad8f-841a715a7295
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mi_tema
+_core:
+  default_config_hash: i0lFoVFCBZ6NWdnGV3fdRPHr6rMa1JQcOMLuRCFinEA
+id: mi_tema_breadcrumbs
+theme: mi_tema
+region: breadcrumb
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

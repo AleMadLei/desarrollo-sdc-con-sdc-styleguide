@@ -1,0 +1,25 @@
+uuid: 9182f2bb-21ac-4d50-9bc6-ea3c63c36098
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mi_tema
+_core:
+  default_config_hash: YVWwBKm0JC7x3h7h7HWTH_-5tu2UI0ofRG4ZzmpUz8E
+id: mi_tema_branding
+theme: mi_tema
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

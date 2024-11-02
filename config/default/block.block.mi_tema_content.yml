@@ -1,0 +1,22 @@
+uuid: cca53b67-1be5-4fd3-b196-577f1eeae86c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mi_tema
+_core:
+  default_config_hash: cXizNnI8OPa3DbDEBmMQzNKExQ2ZbdTnpyQH0UjeUvE
+id: mi_tema_content
+theme: mi_tema
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

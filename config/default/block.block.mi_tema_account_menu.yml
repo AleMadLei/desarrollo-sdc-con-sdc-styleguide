@@ -1,0 +1,27 @@
+uuid: 166dc4f4-b6fe-4c59-9ad4-4b29d41b09a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - mi_tema
+_core:
+  default_config_hash: oFb1fHH4gxB4JW2A8uUjmMZTIA_hbTGaGeUYOQNjvOw
+id: mi_tema_account_menu
+theme: mi_tema
+region: secondary_menu
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

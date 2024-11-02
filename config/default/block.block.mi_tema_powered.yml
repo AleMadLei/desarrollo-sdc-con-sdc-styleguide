@@ -1,0 +1,22 @@
+uuid: 0c5b226a-f796-47fb-9050-780e58007482
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mi_tema
+_core:
+  default_config_hash: mEtZAiGB8Fypw43D0MJGYfT7B90x2HYkQVeWmVahufo
+id: mi_tema_powered
+theme: mi_tema
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

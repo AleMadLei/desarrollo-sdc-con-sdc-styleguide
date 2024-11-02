@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7cad87e8-8af7-497f-81f3-97c9bc594cb0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 790-800x450.jpg
+  uri:
+    -
+      value: 'public://2024-11/790-800x450.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 60654
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730526930

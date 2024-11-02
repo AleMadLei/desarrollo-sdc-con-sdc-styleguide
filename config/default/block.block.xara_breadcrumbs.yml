@@ -1,0 +1,22 @@
+uuid: 53e91133-7854-45f8-9429-3ea4ffe4c13b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - xara
+_core:
+  default_config_hash: i0lFoVFCBZ6NWdnGV3fdRPHr6rMa1JQcOMLuRCFinEA
+id: xara_breadcrumbs
+theme: xara
+region: page_header
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

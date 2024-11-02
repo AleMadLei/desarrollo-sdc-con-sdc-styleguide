@@ -1,0 +1,20 @@
+uuid: 0d794041-7354-40ae-a017-6c4c827313af
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mi_tema
+_core:
+  default_config_hash: DOS206Z-x5odo4Qg2p1k9AEskDRi9ldy-B9eNYTFg6o
+id: mi_tema_local_actions
+theme: mi_tema
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
